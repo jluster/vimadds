@@ -1,0 +1,31 @@
+" vim:ft=vim
+" Jonas M Luster <j@d8c.us>
+" vimrc commons
+" v2011.1
+
+syntax on
+set bg=light
+colorscheme coldbreeze
+
+set cursorline
+
+set expandtab
+set shiftwidth=2
+set tabstop=2
+set smarttab
+
+set ruler
+
+set lbr
+set tw=500
+
+set ai
+set si
+
+set wildmenu
+cno $h e ~/
+cno $d e ~/Desktop/
+cno $j e ./
+cno $c e <C-\>eCurrentFileDir("e")<cr>
+
+set shell=/bin/zsh
