@@ -5,7 +5,7 @@
 
 syntax on
 set bg=light
-colorscheme coldbreeze
+colorscheme desertbreeze
 
 set cursorline
 
